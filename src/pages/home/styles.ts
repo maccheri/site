@@ -72,9 +72,14 @@ export const ImageContainer = styled.div`
   border-radius: 50%;
   overflow: hidden;
 
-  @media (max-width: 960px) {
-    width: 500px;
-    height: 500px;
+  @media (max-width: 560px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (min-width: 561px) and (max-width: 960px) {
+    width: 400px;
+    height: 400px;
   }
 
   @media (min-width: 961px) {
@@ -123,7 +128,8 @@ export const Hello = styled.h2`
     right: unset;
     bottom: 5%;
     width: 400px;
-    font-size: 36px;
+    font-size: 32px;
+    margin-right: 0;
   }
 
   @media (min-width: 561px) and (max-width: 960px) {

@@ -19,7 +19,6 @@ const Home: NextPage = () => {
           <meta name="description" content="Maccheri especialista frontend" />
           <link rel="icon" href="/logo.png" />
         </Head>
-
         <main>
           <S.Header>
             <h1>Maccheri</h1>
