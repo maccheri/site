@@ -25,6 +25,10 @@ body {
   height: 100vh;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* 
   colors
   primary #3B4B5A
